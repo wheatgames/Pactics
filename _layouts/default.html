@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="#f7f5ef">
+    <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    {% unless page.noindex %}<link rel="canonical" href="{{ page.url | absolute_url }}">{% endunless %}
+    {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
+    <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Pactics player resources home">
+          <span class="brand-mark" aria-hidden="true">P<span></span></span>
+          <span class="brand-name">Pactics<span class="brand-caption">Player resources</span></span>
+        </a>
+        <nav class="primary-nav" aria-label="Main navigation">
+          {% for item in site.data.navigation %}
+          <a href="{{ item.path | relative_url }}"{% if page.nav_key == item.key %} aria-current="page"{% endif %}>{{ item.label | escape }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" tabindex="-1">{{ content }}</main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-main">
+        <div>
+          <a class="footer-brand" href="{{ '/' | relative_url }}">Pactics<span class="small-spark" aria-hidden="true">✦</span></a>
+          <p>A little help for your next move.</p>
+        </div>
+        <div class="footer-contact">
+          <span class="eyebrow">Questions? We're here.</span>
+          <a href="mailto:{{ site.email | escape }}">{{ site.email | escape }} <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="wrap footer-bottom">
+        <span>© {{ 'now' | date: '%Y' }} Yufen Quan · WheatGames Studio</span>
+        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+  </body>
+</html>

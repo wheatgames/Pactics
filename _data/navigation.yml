@@ -1,0 +1,20 @@
+- key: privacy
+  title: Privacy Policy
+  label: Privacy
+  path: /privacy.html
+  description: What information the game uses, why it is used, and the choices you have.
+- key: terms
+  title: Terms of Service
+  label: Terms
+  path: /terms.html
+  description: The terms for playing Pactics, including accounts, purchases and virtual items.
+- key: delete-account
+  title: Account deletion
+  label: Account deletion
+  path: /delete-account.html
+  description: How to request account deletion, what is removed, and what may be kept.
+- key: support
+  title: Help & support
+  label: Support
+  path: /support.html
+  description: Find answers about progress, purchases and privacy settings, or get in touch.

@@ -1,25 +1,12 @@
 ---
-permalink: /404.html
 layout: default
+title: Page not found
+permalink: /404.html
+noindex: true
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="wrap not-found">
+  <p class="eyebrow">404 / A small detour</p>
+  <h1>This path ends here.</h1>
+  <p>The page may have moved, or the address may be incorrect.<br>All your Pactics player resources are one click away.</p>
+  <a class="button" href="{{ '/' | relative_url }}">Back to player resources <span aria-hidden="true">→</span></a>
 </div>

@@ -1,0 +1,38 @@
+---
+layout: default
+title: Player resources
+description: Privacy, account information and a helping hand. Find all your Pactics player resources here.
+---
+<div class="wrap home">
+  <section class="hero" aria-labelledby="home-title">
+    <div>
+      <p class="eyebrow hero-eyebrow"><span class="status-dot" aria-hidden="true"></span> A little clarity goes a long way</p>
+      <h1 id="home-title">The details,<br><em>all in one place.</em></h1>
+    </div>
+    <div class="hero-note">
+      <span class="hero-spark" aria-hidden="true">✦</span>
+      <p>Your privacy, your account,<br>and a helping hand when you need one.</p>
+      <span class="hero-signature">For the Pactics community.</span>
+    </div>
+  </section>
+
+  <section class="resources" aria-labelledby="resources-title">
+    <div class="section-heading"><h2 id="resources-title">Player resources</h2><span>04 documents</span></div>
+    <div class="resource-list">
+      {% for item in site.data.navigation %}
+      <a class="resource-link" href="{{ item.path | relative_url }}">
+        <span class="resource-number" aria-hidden="true">0{{ forloop.index }}</span>
+        <h3>{{ item.title | escape }}</h3>
+        <p>{{ item.description | escape }}</p>
+        <span class="resource-arrow" aria-hidden="true">↗</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="contact-strip" aria-labelledby="contact-title">
+    <span class="contact-symbol" aria-hidden="true">↗</span>
+    <div><h2 id="contact-title">Can't find what you need?</h2><p>Send us a message. We'll help you find the next step.</p></div>
+    <a class="button button-light" href="mailto:{{ site.email | escape }}">Contact us <span aria-hidden="true">↗</span></a>
+  </section>
+</div>

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div class="wrap document-top">
+  <a class="back-link" href="{{ '/' | relative_url }}"><span aria-hidden="true">←</span> All player resources</a>
+  <span class="eyebrow">Pactics / {{ page.section_label | default: page.title | escape }}</span>
+</div>
+<div class="wrap document-shell">
+  <aside class="document-sidebar" aria-label="Document navigation">
+    <div class="sidebar-sticky">
+      <p class="eyebrow">On this page</p>
+      <nav aria-label="Sections in this document">{% include contents.html %}</nav>
+      <div class="sidebar-help">
+        <p>Need a hand?</p>
+        <a href="{{ '/support.html' | relative_url }}">Visit support <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </aside>
+  <div class="document-column">
+    <details class="mobile-contents">
+      <summary>On this page</summary>
+      <nav aria-label="Sections in this document">{% include contents.html %}</nav>
+    </details>
+    <article class="prose">
+      {{ content | replace: '<table>', '<div class="table-scroll" role="region" aria-label="Service providers" tabindex="0"><table>' | replace: '</table>', '</table></div>' }}
+    </article>
+    {% if page.request_subject %}
+    <div class="request-callout">
+      <div><span class="eyebrow">Contact by email</span><p>Ready to send your request?</p></div>
+      <a class="button" href="mailto:{{ site.email | escape }}?subject={{ page.request_subject | uri_escape }}">Email a deletion request <span aria-hidden="true">↗</span></a>
+    </div>
+    {% endif %}
+    <div class="document-end">
+      <span class="end-mark" aria-hidden="true">✦</span>
+      <p>Questions about this page? <a href="mailto:{{ site.email | escape }}">Get in touch.</a></p>
+    </div>
+  </div>
+</div>
