@@ -86,8 +86,8 @@ We do not sell your personal information for money.
 ## 6. Legal bases (EEA/UK users)
 
 - **Performance of a contract:** to provide the Game, your account, cloud save and purchases.
-- **Consent:** for personalized advertising and tracking. You can withdraw consent at any time in Settings > Privacy Settings.
-- **Legitimate interests:** for analytics, crash reporting, fraud prevention and security, and to answer your support requests.
+- **Consent:** for personalized advertising and tracking, and for analytics (Google Firebase Analytics). Analytics stays off until you have made your choice in the consent form, and is only turned on if you allow information to be stored on and accessed from your device. You can withdraw consent at any time in Settings > Privacy Settings.
+- **Legitimate interests:** for crash reporting, fraud prevention and security, and to answer your support requests.
 - **Legal obligation:** to handle your privacy and account deletion requests, and to keep purchase records where the law requires it.
 
 ## 7. Data retention
