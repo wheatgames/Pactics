@@ -11,18 +11,21 @@ request_subject: "Delete my Pactics account"
 
 **Pactics** is developed by **Yufen Quan** (WheatGames Studio on Google Play). This page explains how to delete your Pactics account and the data linked to it.
 
+## Reset your progress instead
+
+If you only want to start over, you can reset your progress yourself in the Game: open **Settings > Manage Online Account > Reset Progress** and type RESET to confirm. This erases your game progress on your device and in the cloud. Your Player ID, nickname, game settings and the record of purchases already credited to you (so that they are not credited twice) are kept, and the same account continues with fresh progress. Gems and other Virtual Items you held, including purchased ones, are not restored after a reset, and a reset cannot be undone.
+
+Resetting your progress does not delete your account. To delete your account and the data linked to it, request deletion as described below.
+
 ## How to request deletion
 
-You can request deletion in either of these ways. **You do not need to reinstall the Game to make a request.**
-
-1. **In the Game:** open **Settings > Manage Account > Delete Account** and confirm.
-2. **By email:** send a message to **wheatgames123@gmail.com** with the subject "Delete my Pactics account".
+To request deletion, send an email to **wheatgames123@gmail.com** with the subject "Delete my Pactics account". **You do not need to reinstall the Game to make a request.**
 
 ### What to include in your email
 
 Creating a Pactics account does not require your real name, email address or phone number; accounts are identified by a Player ID. To help us find your account, please include **at least one** of the following:
 
-- **Your Player ID**, if you still have it. It is shown on your **Player Profile** screen in the Game.
+- **Your Player ID**, if you still have it. It is shown on your **Player Profile** screen and in **Settings > Manage Online Account** in the Game.
 - **The order number of any in-app purchase you made in Pactics.** You can find it in the purchase receipt email from Apple or Google, at [reportaproblem.apple.com](https://reportaproblem.apple.com/) (App Store) or in your [Google Play order history](https://play.google.com/store/account/orderhistory). An order number can help us find the account linked to that purchase.
 
 If possible, also tell us your platform (iOS or Android), your device model and the approximate date you started playing.
@@ -33,7 +36,7 @@ You can still send us a deletion request. We will search our records with the in
 
 If we cannot identify your account, the reason is usually that the account is not linked to any information that can identify you.
 
-- **If your account was linked to Game Center (iOS) or Google Play Games (Android):** you can also install the Game, sign in with the same platform account to restore it, and then delete it yourself with **Settings > Manage Account > Delete Account**. This is an optional extra route, not a requirement for making a request.
+- **If your account was linked to Game Center (iOS) or Google Play Games (Android):** you can also install the Game, sign in with the same platform account to restore it, and find your Player ID in **Settings > Manage Online Account** to include in your email. This is an optional extra step, not a requirement for making a request.
 - **If you only played as a guest:** reinstalling the Game may create a new guest account instead of restoring the old one (for example, on iOS after all apps from the same developer have been removed from the device). In that case we may not be able to find or restore the old guest account.
 
 ### Verification

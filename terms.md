@@ -8,7 +8,7 @@ permalink: "/terms.html"
 
 # Pactics Terms of Service
 
-**Effective date:** October 17, 2026
+**Effective date:** October 23, 2026
 
 These Terms of Service ("Terms") govern your use of the mobile game **Pactics** (the "Game") and related services provided by **Yufen Quan**, an individual developer who also publishes on Google Play under the name **WheatGames Studio** ("we", "us", "our"). By downloading, installing or playing the Game, you agree to these Terms. If you do not agree, please do not use the Game.
 
@@ -25,6 +25,8 @@ Subject to these Terms, we grant you a limited, non-exclusive, non-transferable,
 ## 3. Your account
 
 You can play as a guest or link your progress to **Game Center** (iOS) or **Google Play Games** (Android). Guest progress may be lost if you delete the Game or change devices; we recommend linking your account. You are responsible for keeping your device and linked accounts secure. Accounts are personal and may not be sold or transferred.
+
+You can reset your game progress at any time in **Settings > Manage Online Account > Reset Progress**. A reset cannot be undone, and Virtual Items you held, including purchased ones, are removed and will not be restored or refunded, except where required by law.
 
 You can request deletion of your account at any time. See [Delete your account]({{ '/delete-account.html' | relative_url }}).
 

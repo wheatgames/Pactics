@@ -8,7 +8,7 @@ permalink: "/privacy.html"
 
 # Pactics Privacy Policy
 
-**Effective date:** October 17, 2026
+**Effective date:** October 23, 2026
 
 This Privacy Policy explains how the mobile game **Pactics** (the "Game") collects, uses and shares information when you play it on iOS or Android.
 
@@ -93,6 +93,8 @@ We do not sell your personal information for money.
 ## 7. Data retention
 
 We keep your account and game data for as long as your account exists. When you delete your account, we delete or anonymize the data linked to your account within 30 days, including the data that our service providers store for us (PlayFab, Firebase Authentication and Cloud Firestore, and RevenueCat), and we ask those providers to delete it as well. We may keep certain records (for example, purchase records) where the law requires it.
+
+You can also reset your game progress in the Game (**Settings > Manage Online Account > Reset Progress**). A reset replaces your saved progress on your device and in the cloud with new progress, but keeps your account, Player ID, nickname, game settings and the record of purchases already credited to you. It does not delete your account.
 
 Analytics, crash reporting and advertising data is not linked to your Player ID or account. It is tied to app-instance or device identifiers. Its retention and deletion are governed by the privacy policies of Google Firebase, Appodeal and its advertising partners, and by applicable law.
 

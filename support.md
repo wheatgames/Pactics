@@ -16,7 +16,7 @@ Email: **wheatgames123@gmail.com**
 
 To help us find your account quickly, please include:
 
-- Your **Player ID**, which is shown on your **Player Profile** screen in the Game. If you cannot open the Game, include the order number of an in-app purchase instead, if you have one.
+- Your **Player ID**, which is shown on your **Player Profile** screen and in **Settings > Manage Online Account** in the Game. If you cannot open the Game, include the order number of an in-app purchase instead, if you have one.
 - Your device model and operating system version (for example, iPhone 15, iOS 18).
 - A short description of the problem and, if possible, a screenshot.
 
@@ -44,6 +44,10 @@ Purchases are processed by Apple or Google, so refunds must be requested from th
 ### How do I change my ad privacy choices?
 
 Open **Settings > Privacy Settings** in the Game. On iOS, you can also change tracking permission in *Settings > Privacy & Security > Tracking* on your device.
+
+### How do I reset my progress?
+
+Open **Settings > Manage Online Account > Reset Progress** in the Game and type RESET to confirm. Your progress on your device and in the cloud will be erased; your Player ID, nickname and settings are kept. Purchased gems are not restored after a reset. Resetting does not delete your account.
 
 ### How do I delete my account?
 
